@@ -86,3 +86,28 @@ const Body = () => {
 };
 
 export default Body;
+
+/*
+const Body = () => {
+  var searchTxt = "";
+  return (
+    <>
+      <div className="serchbar-container">
+        <input
+          id="searchTxt"
+          type="text"
+          className="search-input"
+          placeholder="Search"
+          value={searchTxt}
+          onChange={(e) => {
+            var temp = document.getElementById("searchTxt").value;
+            searchTxt = searchTxt + temp;
+            console.log(searchTxt);
+          }}
+        />
+        <button className="search-btn">Search</button>
+      </div>
+    </>
+  );
+}
+*/
